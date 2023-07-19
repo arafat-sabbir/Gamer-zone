@@ -96,9 +96,9 @@ body {
     width: 50%;
 }
 
-.banner-content p {
+.banner-content>p {
     color: #534C64;
-    text-align: center;
+    text-align: left;
     font-size: 1.1rem;
     font-weight: 500;
     margin: 0;
@@ -129,6 +129,32 @@ body {
     margin-bottom: 20px;
 }
 
+.btn1 {
+    color: #FFF;
+    font-size: 1.25rem;
+    padding: 21px 40px;
+    border: none;
+    margin-top: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    gap: 10px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.btn2 {
+    color: #FFF;
+    font-size: 1.25rem;
+    padding: 21px 40px;
+    border: none;
+    margin-top: 42px;
+    margin-left: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: #4EC5F7;
+    gap: 10px;
+}
 
 
 
@@ -165,7 +191,7 @@ main {
     font-size: 3rem;
     font-weight: 700;
     margin: 0;
-    margin-top: 120px;
+    margin-top: 80px;
 
 }
 
@@ -192,6 +218,7 @@ main {
 .play-section {
     display: flex;
     margin-top: 120px;
+    height: 800px;
 }
 
 .play-content h1 span {
@@ -304,4 +331,84 @@ main {
     border: 1px solid #fe0d8b;
     border-radius: 50px;
     background: #FFF;
+}
+
+/* footer */
+.footer {
+    width: 1920px;
+    height: auto;
+    background-color: #0B0223;
+}
+
+.footer-img {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.footer-img p span {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-img p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+    list-style: none;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    color: #FFF;
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+.footer-privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #6d6b6b;
+    gap: 60px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 28px;
+    padding-bottom: 128px;
 }
